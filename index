@@ -1,3 +1,1 @@
-<p:Assign.Value>
-  <p:InArgument x:TypeArguments="x:String">[System.Text.RegularExpressions.Regex.Match(saldo, "\d+,\d+").Value]</p:InArgument>
-</p:Assign.Value>
+saldo.Replace("Saldo: ", "").Trim()
