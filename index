@@ -1,1 +1,1 @@
-System.Text.RegularExpressions.Regex.Match(saldo, "R\$?\s*\d+,\d+").Value
+saldo = saldo.Replace("R$", "").Trim()
